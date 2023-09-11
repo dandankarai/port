@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#986DFF" />
+    <meta name="copyright" content="Daniel Cunha Barbosa" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Portfólio - Daniel Cunha</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="nav-bar-content">  
+            <a href="./about.html">Sobre</a>
+            <a href="./experience.html">Experiências</a>
+          </div>
+        </nav>
+      </header>
+
+
+      <section class="init-section">
+        <h1>Análise e Desenvolvimento de Sistemas</h1>
+        <h2>
+          Projeto realizado para matéria do professor Gustavo, desenvolvido
+          usando HTML e CSS
+        <h3>Para saber mais sobre mim, clique nos botão abaixo ou navegue acima!!</h3>
+
+        <a
+        target="_blank"
+          style="text-decoration: none"
+          href="./about.html"
+          class="custom-button"
+          >Sobre mim</a
+        >
+      </section>
+
+      <section class="experience"></section>
+
+      <footer>
+        <form action="#">
+          <h1>Entre em contato</h1>
+
+          <div class="form-content">
+            <p>Nome</p>
+            <input required class="input-form" type="text" name="text" />
+          </div>
+
+          <div class="form-content">
+            <p>Email</p>
+            <input required class="input-form" type="text" name="text" />
+          </div>
+
+          <div class="form-content">
+            <p>Assunto</p>
+            <input required="true" class="input-form" type="text" name="text" />
+          </div>
+
+          <button class="custom-button" onclick="showAlert()">Enviar</button>
+        </form>
+        <img
+          style="margin-top: 30px"
+          width="10%"
+          src="./assets/logo-full.svg"
+          alt="logoUnilavras"
+        />
+      </footer>
+    </main>
+
+    <script>
+      function showAlert() {
+        if (document.getElementsByTagName(input) === "") {
+          alert("Preencha esses campos");
+        }
+      }
+    </script>
+  </body>
+</html>
